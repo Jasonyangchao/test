@@ -1,7 +1,6 @@
 pragma solidity ^0.8.9;
 import './SafeMath.sol';
 import './Ownable.sol';
-import './ERC20Detailed.sol';
 import './IERC20.sol';
 import './Context.sol';
 contract test is Context, IERC20, Ownable {
