@@ -3,6 +3,8 @@ import './SafeMath.sol';
 import './Ownable.sol';
 import './IERC20.sol';
 import './Context.sol';
+import './IUniswapV2Factory.sol';
+import './IUniswapV2Router02.sol';
 contract test is Context, IERC20, Ownable {
 using SafeMath for uint256;
 
