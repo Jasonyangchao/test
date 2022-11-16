@@ -1,8 +1,8 @@
+// SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.9;
 
-contract Context {
-    constructor () internal { }  
-    function _msgSender() internal view returns (address payable) {
+abstract contract Context {
+    function _msgSender() internal view virtual returns (address) {
         return msg.sender;
     }
 }
